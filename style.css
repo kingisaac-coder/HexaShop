@@ -1,0 +1,424 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    object-fit: cover;
+}
+
+
+.icon h1{
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: -10pc;
+    margin-left: -80pc;
+}
+
+.icon b{
+    font-size: 30px;
+    margin-top: -30px;
+}
+
+
+.menu #men {
+    display: flex;
+    font-size: 25px;
+    gap: 10px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* text-align: right; */
+    justify-content: flex-end;
+}
+#men li{
+    text-decoration: none;
+    list-style: none;
+    margin-top: -7pc;
+    margin-right: 7pc;
+}
+
+ li a{
+    text-decoration: none;
+    color: black;
+}
+
+#men li a:hover{
+    color: orangered;
+    transition-duration: 0.4s;
+    transition: 0.4s ease-in-out;
+}
+
+/* .main{
+    background-image: url(vladimir-fedotov-Mi2LJ2oaPws-unsplash.jpg);
+    height: 70vh;
+} */
+
+/* 
+.pic{
+    width: 1000px;
+    height: 100vh;
+} */
+.pic img{
+    width: 1000px;
+    height: 100vh;
+}
+
+.main{
+    position: absolute;
+    left: 20px;
+    top: 25pc;
+    text-transform: uppercase;
+}
+.main h1{
+    position: relative;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    left: 50px;
+    letter-spacing: 10px;
+
+}
+.main p{
+    font-size: 30px;
+    font-family: cursive;
+    color: #fff;
+}
+
+.button{
+    position: absolute;
+    padding: 14px 28px;
+    border: 4px solid;
+    border-color: #fff;
+    color: #fff;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: -33pc;
+    left: 70px;
+}
+
+.button:hover{
+    color: black;
+    background-color: orangered;
+}
+
+.right-image{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: flex-end;
+}
+
+.right-image img{
+    width: 450px;
+    height: 60vh;
+    margin-top: -61.5pc;
+    background-image: rgba(0 ,0 ,0 ,0.6) rgba(0, 0, 0, 0.6);
+}
+
+.right-text{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10pc;
+    gap: 20pc;
+}
+
+
+.right-text h2{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -45pc;
+    color: #f2f2f2;
+
+}
+
+.right-text b{
+        font-size: 20px ;
+        font-family: cursive;
+        text-align: center;
+}
+
+.second-image{
+    display: flex;
+    width: 600px;
+    height: 34vh;
+    /* justify-content: right; */
+    margin-left: 75pc;
+    margin-top: -22pc;
+    gap: 80px;
+}
+
+.image-text{
+    text-align: right;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f2f2f2;
+    margin-top: -10pc;
+    text-transform: uppercase;
+    padding-right: 200px;
+}
+
+.image-text b{
+    font-size: 20px;
+    /* color: black; */
+    font-family: cursive;
+    color: #f2f2f2;
+}
+
+.h2{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    margin: 20pc;
+}
+.h2 p{
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+
+.first-img{
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 10pc;
+    gap: 10pc;
+    margin-top: -7pc;
+    margin-right: 5pc;
+}
+
+.first-img img{
+    width: 770px;
+      height: 55vh;
+}
+
+.price {
+    display: flex;
+    gap: 40pc;
+}
+
+
+.price h2{
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 50px;
+}
+
+.price b{
+    font-size: 30px;
+
+}
+
+.women{
+     display: flex;
+    flex-direction: row;
+    gap: 20pc;
+    /* width: 800px;
+    height: 55vh; */
+    margin-left: 5pc;
+}
+
+.women img{
+    width: 800px;
+    height: 55vh;
+}
+ .set{
+    font-size: 45px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 5px;
+        text-transform: capitalize;
+        margin-left: 10pc;
+        margin: 20pc;
+}
+
+.set b{
+    font-size: 20px;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+.price2{
+    display: flex;
+    gap: 35pc;
+    margin-left: 10pc ;
+
+}
+
+.price2 h2{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.price2 b{
+    font-size: 25px;
+
+}
+
+.women2 {
+    display: flex;
+    margin: 10pc;
+    gap: 10pc;
+}
+
+.women2 img{
+    width: 850px;
+    height: 60vh;
+}
+
+.price3{
+    display: flex;
+    gap: 34pc;
+    margin-top: -6pc;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 9pc;
+}
+
+.access{
+    font-size: 55px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10pc;
+    text-transform: capitalize;
+}
+
+.access b{
+    font-size:27px;
+    font-family: cursive;
+}
+
+.accessory{
+    display: flex;
+    gap: 10pc;
+    margin: 4pc;
+}
+
+.accessory img{
+    width: 800px;
+    height: 60vh;
+}
+
+.access-price{
+    display: flex;
+    gap: 35pc;
+    margin-left: 10pc;
+}
+
+.access-price h3{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+}
+
+h4{
+    margin: 10pc;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 40px;
+    text-transform: capitalize;
+}
+
+.par{
+    margin-left: 5pc;
+    font-size: 25px;
+    margin-top: -3.5pc;
+    font-family: cursive;
+}
+
+.Disc{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 32px;
+    position: absolute;
+    background-color: #f2f2f2;
+    border: 4px solid;
+    left: 10pc;
+    margin-top: 4pc;
+}
+
+.Disc:hover{
+    background-color: orangered;
+    color: #fff;
+    border-color: black;
+}
+
+.rows{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5pc;
+}
+
+.rows img{
+    width: 500px;
+    height: 30vh;
+    margin-top: -23pc;
+
+}
+
+.rows2{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5pc;
+}
+
+.rows2 img{
+    width: 500px;
+    height: 33vh;
+}
+
+.foot  {
+    margin-top: 4pc;
+    display: flex;
+    /* gap: 5pc; */
+    justify-content: center;
+}
+
+.foot img{
+    width: 600px;
+    height: 50vh;
+}
+
+.form{
+    display: flex;
+    gap: 6pc;
+    margin-left: 5pc;
+}
+
+#name{
+    width: 23pc;
+    border: 3px solid;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #ddd;
+    height: 50px;
+}
+
+#emails{
+    width: 25pc;
+    border: 3px solid;
+    padding: 25px;
+    font-size: 20px;
+    background-color: #ddd;
+    height: 50px;
+}
+
+#sub{
+    width: 10pc;
+    /* padding: 25px; */
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 25px;
+    border: 2px solid;
+}
+#sub:hover{
+    background-color: orangered;
+        color: #fff;
+        border-color: #000;
+}
+
+.last{
+    font-size: 30px;
+}
